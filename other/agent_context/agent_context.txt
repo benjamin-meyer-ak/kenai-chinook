@@ -1,0 +1,14 @@
+4/3/2026
+
+PROJECT CONTEXT
+This project will explore the feasibility of carrying out a data analysis similar to Cunningham et al. 2018 (PDF located at other/documents), but focused on the Kenai River rather than Yukon River/ The goal is to follow a similar lifecycle-modeling approach to estimate effect sizes of the many variables that can affect Kenai River Chinook salmon abundance.
+
+1) I want to understand if such a project would be feasible using existing available datasets.
+2) Other questions will be added to this list as they emerge
+
+
+NOTE ON AGENTIC COLLABORATION STANDARDS
+- I will use agentic coding assistance to develop and complete this project. However, I do not want to create and implement code without first understanding how it works. The ability for future scientists to be able to read, edit, and apply the code in this project is important, as it will be a collaborative effort. Therefore, the agent will proceed with implementing code edits only after confirming with the user that they understand what is happening.
+
+- Do not over-use the em-dash when writing text. This is a signature sign of AI writing style that is unappealing to see too much of.
+
