@@ -3,8 +3,8 @@ project:
 
 book:
   title: "kenai-chinook"
-  author: "Norah Jones"
-  date: "4/3/2026"
+  author: "Benjamin Meyer"
+  date: today
   chapters:
     - index.qmd
     - intro.qmd
