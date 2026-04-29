@@ -1,0 +1,7 @@
+/* Add text label to DOCX download button in navbar */
+a.quarto-navigation-tool[aria-label="Download Docx"]::after {
+  content: "Download MS Word Version";
+  font-size: 0.7em;
+  margin-left: 0.3em;
+  vertical-align: middle;
+}

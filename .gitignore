@@ -40,7 +40,10 @@ vignettes/*.pdf
 .Renviron
 
 # pkgdown site
-docs/
+# docs/
+
+# Quarto rendered output (published via gh-pages branch)
+_book/
 
 # translation temp files
 po/*~
@@ -51,3 +54,4 @@ rsconnect/
 
 /.quarto/
 **/*.quarto_ipynb
+nul

@@ -5,6 +5,7 @@ book:
   title: " Proposed Kenai River Chinook Salmon Research"
   author: "Benjamin Meyer"
   date: today
+  downloads: [docx]
   chapters:
     - index.qmd
     #- intro.qmd
@@ -18,7 +19,7 @@ format:
     theme:
       - cosmo
       - brand
-    other-formats: docx
+    css: custom.css
   docx:
     number-sections: false
   #pdf:
@@ -26,6 +27,8 @@ format:
 
 filters:
   - docx-formatting.lua
+
+bibliography: references.bib
 
 editor: visual
 
