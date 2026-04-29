@@ -15,7 +15,7 @@ A rendered version of this document is published at: https://benmeyersalaska.git
 ## Research Chapters
 
 | Chapter | Topic |
-|---|---|
+|----|----|
 | 1 | Kenai River water quality monitoring and trend analysis (2000-2025) |
 | 2 | Predictive fish habitat mapping and Anadromous Waters Catalog expansion |
 | 3 | Evaluation of Kenai River habitat restoration efforts |
