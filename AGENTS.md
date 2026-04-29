@@ -1,27 +1,73 @@
 # Kenai Chinook Project — Agent Memory
 
-Last updated: 2026-04-23 (session: context/document updates, project brief drafted)
+Last updated: 2026-04-29 (session: Quarto book structure configured; pitch letter renamed to concept_note.qmd)
+
+------------------------------------------------------------------------
+
+## Project Scope (as of 2026-04-29)
+
+This repository now serves to develop ideas, plans, and documents for a **doctoral research program** on Kenai River Chinook salmon. The scope was expanded on 2026-04-29 from a single spawner-recruit productivity analysis to a multi-chapter doctoral program.
+
+### Doctoral Program Stages
+
+1.  Develop a summary pitch to recruit funding (primarily PSMFC; secondarily other sources) and to recruit academic advisors/committee members.
+2.  Develop additional research chapters addressing Kenai Chinook salmon beyond total run productivity. The broader program also addresses habitat.
+
+### Chapter Topics (working list)
+
+| Chapter | Topic | Key Reference/Anchor |
+|----|----|----|
+| 1 | Kenai River water quality monitoring and trend analysis | KWF draft report "Water Quality Assessment of the Kenai River Watershed from 2000 to 2025" (B. Meyer, KWF); https://kenai-watershed-forum.github.io/kenai-river-wqx/. Covers 18 parameters (metals, nutrients, organics, bacteria, physical). Updates McCard 2007 and Guerron Orejuela 2016. |
+| 2 | Predictive fish habitat mapping / Anadromous Waters Catalog expansion | KWF habitat mapping initiative launched spring 2025 with National Coastal Resilience Fund grant; https://www.kenaiwatershed.org/news-media/fish-habitat-mapping-2025/. Partners: Romey Riverscape Sciences, Terrainworks, Cook Inletkeeper. Modeled on Hoonah Native Forest Partnership approach (\>98% accuracy in SE Alaska). \<40% of Kenai Peninsula Borough anadromous waters currently inventoried. |
+| 3 | Evaluation of Kenai River habitat restoration efforts | ADF&G Spring 2026 report ("Kenai River Chinook salmon juvenile rearing habitat use and assessment of habitat improvement techniques") in `other/documents/` |
+| 4 | Kenai River Chinook productivity (Bayesian state-space spawner-recruit model) | Existing work in this repo; DeFilippo 2026, Cunningham 2018 |
+
+Each chapter is intended to become a published academic manuscript.
+
+### Funding and Institutional Context
+
+- **Primary funder target:** Pacific States Marine Fisheries Commission (PSMFC), Upper Cook Inlet Salmon Disaster Research program. The 2025 RFP (https://www.psmfc.org/procurement/upper-cook-inlet-salmon-disaster-research/) offered \~\$882,000 over 3 years (concluding by Sept 30, 2028). The 2026 RFP is expected to be similar.
+- **Employment structure:** Unresolved. May proceed as a graduate research assistant at a university, or as a Kenai Watershed Forum (KWF) employee. Decision pending.
+- **Primary collaborating organization:** Kenai Watershed Forum. All chapters are intended to provide funding support to KWF work.
+
+### Key Documents Generated
+
+- `concept_note.qmd` (formerly `pitch_letter.qmd`, created 2026-04-29): Research concept paper / pitch for PSMFC funding and academic collaborator recruitment. Titled "Concept Note: An Integrated Doctoral Research Program on Kenai River Chinook Salmon." This is an active book chapter.
+- `other/output/kenai_chinook_project_brief_2026-04-23.docx`: Earlier project brief focused on the productivity modeling chapter.
+
+### Existing PSMFC-Funded Project: Critical Context for Chapter 3
+
+**Grant:** PSMFC No. 26-084G, "Juvenile Kenai River Chinook Salmon Rearing Habitat Quality and Usage" **Amount:** \$94,974 \| **Period:** October 1, 2025 through September 30, 2028 **PIs:** Daniel Donnelly (ADF&G Division of Sport Fish, Soldotna) and Dr. Jeffrey Muehlbauer (University of Alaska Fairbanks) **Personnel:** 1 M.S. candidate (UAF, under Muehlbauer) + 1 field technician + ADF&G staff
+
+**What this project does:** Stratified random sampling of juvenile KRCS rearing habitat in 3 mainstem reaches below Skilak Lake. Quantifies flow, depth, substrate, temperature, and vegetation density across 5 streambank cover types (intact riparian, restored riparian, large woody debris, erosion control structures, bare bank). Uses baited minnow traps to index habitat use. Develops a best-fit regression model (AIC/BIC comparison) predicting optimal juvenile KRCS rearing habitat. Evaluates whether restored banks meet preferred habitat conditions. Also crosslinks with a concurrent JSATS smolt outmigration/tagging project (ADF&G/UAF).
+
+**Key personnel:** The M.S. candidate is Danielle Tryon (UAF/ADF&G), as confirmed by a poster presented at the 2026 Alaska Chapter of the American Fisheries Society (`other/documents/tryon_poster_uaf_2026.jpeg`). The poster title is "Habitat utilization of juvenile Chinook Salmon (*Oncorhynchus tshawytscha*) in the Kenai River." Contact: detryon\@alaska.edu.
+
+**Methodological concern flagged for Chapter 3:** The Tryon poster frames hypotheses in terms of fish presence/trap catch as a proxy for habitat quality (e.g., "sites with more vegetation will have more fish present"; "anthropogenic alteration will present less fish"). This is an unreliable assumption. Fish abundance in baited minnow traps conflates habitat suitability with trap catchability, behavioral aggregation, density-dependent displacement, and sampling artifacts. Chapter 3 should use physical habitat covariates (flow, depth, substrate, temperature, vegetation) directly as quality indicators rather than inferring quality from fish presence.
+
+**Implications for Chapter 3 of the doctoral program:** - A simple BACI study using fish presence as a habitat quality proxy would be both redundant with and methodologically weaker than the Tryon/Muehlbauer work. - Chapter 3 should use physical habitat covariates from the 26-084G project as inputs to a habitat quality index (not fish catch as a proxy), apply that index at corridor scale via remote sensing, and link the resulting time series to population productivity (Chapter 4). - This framing is scientifically stronger and clearly distinct from the site-scale presence/absence approach of the existing project. - Dr. Muehlbauer (UAF) is a natural candidate for doctoral committee membership; Danielle Tryon is a direct collaborator. - The M.S.-at-UAF funding model in grant 26-084G is the established PSMFC precedent for the institutional structure the doctoral program would follow.
+
+------------------------------------------------------------------------
 
 ## Project Goal
 
 Use all best available data to understand the full suite of natural, anthropogenic, marine, freshwater, historical, present, and future factors that drive wild Kenai River Chinook salmon productivity. The analysis is grounded in the Kenai River and its environs but draws on other populations and broader North Pacific literature as appropriate. The approach uses a Bayesian state-space spawner-recruit model with explicit environmental and anthropogenic covariates, informed by DeFilippo et al. (2026) and Cunningham et al. (2018), but not a direct adaptation of either.
 
-Reference PDFs in `other/documents/`:
-- `Ecological Applications - 2026 - DeFilippo - Shifting stage-specific constraints on productivity shape recovery potential.pdf` (primary structural reference)
-- `Global Change Biology - 2018 - Cunningham - Signals of large scale climate drivers hatchery enhancement and marine.pdf`
-- `Global Change Biology - 2020 - Jones - Watershed-scale climate influences productivity of Chinook salmon populations across.pdf` (PDF now present; review before developing covariate list)
-- `Fish and Fisheries - 2025 - Lamborn - A Synthesis of Factors Related to Trends in Abundance and Demography of Alaska.pdf` (new; high priority review)
+Reference PDFs in `other/documents/`: - `Ecological Applications - 2026 - DeFilippo - Shifting stage-specific constraints on productivity shape recovery potential.pdf` (primary structural reference) - `Global Change Biology - 2018 - Cunningham - Signals of large scale climate drivers hatchery enhancement and marine.pdf` - `Global Change Biology - 2020 - Jones - Watershed-scale climate influences productivity of Chinook salmon populations across.pdf` (PDF now present; review before developing covariate list) - `Fish and Fisheries - 2025 - Lamborn - A Synthesis of Factors Related to Trends in Abundance and Demography of Alaska.pdf` (new; high priority review)
 
 ## Project Structure
 
-Quarto book project (HTML and PDF outputs). Key files:
-- `_quarto.yml` — book configuration
-- `index.qmd`, `intro.qmd`, `summary.qmd`, `references.qmd` — book chapters (currently placeholder content)
-- `other/agent_context/agent_context.txt` — project context and collaboration standards
-- `other/documents/` — reference PDFs
-- `other/input/` — data inputs (currently empty)
-- `other/output/` — analysis outputs
-  - `kenai_chinook_project_brief_2026-04-23.docx` — project brief summarizing goals, modeling approach, literature, data gaps, and next steps
+Quarto book project (HTML and DOCX outputs). Key files:
+
+- `_quarto.yml` — book configuration. Active chapters: `index.qmd`, `concept_note.qmd`, `references.qmd`. `intro.qmd` and `summary.qmd` are placeholder files commented out of the chapters list. `index.qmd` has `draft: true` to suppress it from rendering while satisfying the Quarto book home-page requirement.
+- `concept_note.qmd` — the primary active document; the doctoral program concept note / PSMFC pitch.
+- `docx-formatting.lua` — Lua filter applied to DOCX output only. Inserts a page break before every level-2 heading (`##`) and reorders the title block so date appears above author name (by prepending date to the author metadata list, since Pandoc's DOCX template renders author before date).
+- `intro.qmd`, `summary.qmd` — placeholder chapters, currently inactive (commented out in `_quarto.yml`).
+- `references.qmd`, `references.bib` — references chapter and bibliography.
+- `other/agent_context/agent_context.txt` — project context and collaboration standards.
+- `other/documents/` — reference PDFs.
+- `other/input/` — data inputs (currently empty).
+- `other/output/` — analysis outputs.
 
 ## Collaboration Standards (from agent_context.txt)
 
@@ -42,7 +88,7 @@ This approach was chosen over a direct DeFilippo IPM adaptation primarily becaus
 
 The core is a **Ricker spawner-recruit model** in state-space form:
 
-```
+```         
 ln(R/S) = ln(alpha) + beta_climate * X_climate + beta_bycatch * X_bycatch
           + beta_competition * X_competition - beta_density * S + error
 ```

@@ -1,0 +1,162 @@
+---
+title: "Kenai River Chinook Salmon Research: An Integrated Doctoral Research Program"
+subtitle: "Connecting Habitat Condition, Water Quality, and Population Productivity"
+author: "Benjamin Meyer"
+affiliation: "Kenai Watershed Forum"
+date: today
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    theme: cosmo
+    other-formats: docx
+  docx:
+    number-sections: false
+---
+
+## Overview
+
+Kenai River Chinook salmon (*Oncorhynchus tshawytscha*) have experienced prolonged abundance declines that have repeatedly triggered emergency management actions, fishery closures, and, ultimately, a federal commercial fishery disaster declaration for Upper Cook Inlet. Despite decades of monitoring, the relative contributions of freshwater habitat degradation, water quality impairment, marine survival shifts, bycatch, and competition from hatchery-origin salmon have not been rigorously quantified for this population. No integrated, multi-factor research program exists to address these drivers in concert.
+
+This document describes a proposed doctoral research program designed to fill that gap. The program centers on the Kenai River and is organized into four complementary research chapters, each targeted as a standalone, peer-reviewed publication. The research will be conducted in collaboration with Kenai Watershed Forum (KWF) and will draw on long-term monitoring data from the Alaska Department of Fish and Game (ADF&G), NOAA, and the U.S. Geological Survey, supplemented by new field data collection.
+
+We are seeking funding support through the [PSMFC Upper Cook Inlet Salmon Disaster Research program](https://www.psmfc.org/procurement/upper-cook-inlet-salmon-disaster-research/), and we are actively recruiting academic collaborators to serve as dissertation advisors and committee members.
+
+------------------------------------------------------------------------
+
+## Background
+
+### Kenai River Chinook Salmon and the Upper Cook Inlet Disaster
+
+The Kenai River supports two distinct runs of Chinook salmon: an early run returning primarily in May and June, and a late run returning in July through September. The late run is the larger of the two and has historically supported subsistence, sport, and commercial fisheries of significant cultural and economic value throughout the Kenai Peninsula and the broader Upper Cook Inlet.
+
+Through the 2000s and 2010s, late-run Chinook abundance declined substantially relative to historical levels. Spawner escapements regularly fell below biological escapement goals, triggering Chinook harvest restrictions on all user groups, as well full or partial closures of commercial sockeye fisheries where Chinook was a non-target species. By the early 2020s, cumulative losses had become severe enough to warrant a federal commercial fishery disaster declaration, which authorized dedicated research funding through NOAA and PSMFC.
+
+The causes of this decline are not well characterized. A range of factors have been implicated or suggested, including shifts in marine survival associated with climate variability, competitive interactions at sea with the expanding abundance of hatchery-origin pink and chum salmon, freshwater habitat degradation driven by riparian development and land use change along the lower Kenai River corridor, water quality impairment related to sediment, temperature, and contaminants, and the cumulative effects of harvest across multiple fisheries, including bycatch in North Pacific trawl fisheries. No prior study has addressed all of these factors simultaneously, or quantified their relative contributions using a rigorous framework.
+
+### The Research Gap
+
+Existing research on Kenai Chinook has generally addressed individual drivers in isolation. Spawner-recruit analyses using standard regression methods have been conducted periodically by ADF&G but do not account for observation error in escapement counts, do not integrate cohort structure across age classes, and do not formally test hypotheses about specific drivers. Habitat and water quality data have been collected by KWF for many years but have not been formally linked to population productivity metrics. Restoration activities, including riparian planting and large wood placements, have been implemented but not evaluated against measurable habitat or productivity outcomes.
+
+The proposed doctoral program is designed to address these gaps through coordinated, chapter-scale research that can collectively support management decisions and advance the broader science of Pacific salmon population dynamics.
+
+------------------------------------------------------------------------
+
+## Proposed Research Program
+
+The proposed doctoral program is organized around four research chapters, described below. Each chapter is designed to stand alone as a publishable unit, and each builds toward a synthesized understanding of the factors shaping Kenai River Chinook salmon productivity. The program is expected to span at least three to four years.
+
+### Chapter 1: Long-Term Water Quality Monitoring and Trend Analysis
+
+**Research question:** What are the long-term trends in water quality parameters relevant to Chinook salmon in the Kenai River watershed, and do those trends correlate with population productivity or habitat condition indicators?
+
+**Existing foundation:** KWF has maintained one of the most comprehensive long-term water quality monitoring programs in Alaska, with continuous records spanning 2000 to 2025 from sites distributed across the Kenai River mainstem and key tributaries. A draft synthesis report covering this 25-year record is currently in preparation (Meyer, KWF; available online at <https://kenai-watershed-forum.github.io/kenai-river-wqx/>), and updates two prior published assessments of the same dataset (McCard 2007; Guerron Orejuela 2016). The draft report addresses 18 parameters, including trace metals (arsenic, cadmium, chromium, copper, lead, zinc, calcium, iron, magnesium), nutrients (nitrate, phosphorus), organic compounds (BTEX), fecal coliform bacteria, and physical parameters (pH, specific conductance, total suspended solids, turbidity, water temperature).
+
+**Approach:** This chapter will complete and formalize the 2000-2025 water quality synthesis as a peer-reviewed publication, with statistical trend analysis characterizing temporal and spatial patterns across the parameter suite. A second analytical component will link water quality time series to independent indicators of Chinook salmon productivity, testing whether any parameters exhibit temporal correlations with escapement anomalies, juvenile condition metrics, or the productivity index derived from Chapter 4.
+
+**Significance:** No peer-reviewed synthesis of long-term water quality trends in the Kenai River watershed currently exists. This chapter will fill that gap, establish a citable baseline for future management and litigation contexts, identify parameters of greatest concern for salmon habitat, and connect KWF's monitoring investment directly to salmon population outcomes.
+
+### Chapter 2: Predictive Fish Habitat Mapping and Anadromous Waters Catalog Expansion
+
+**Research question:** Can predictive habitat modeling accurately identify undocumented anadromous fish habitat across the Kenai Peninsula Borough at landscape scale, and what does the resulting habitat map reveal about the productive capacity available to Chinook salmon?
+
+**Existing foundation:** In spring 2025, KWF was awarded a federal grant through the National Coastal Resilience Fund to [explore predictive habitat mapping for the Kenai Peninsula Borough](https://www.kenaiwatershed.org/news-media/fish-habitat-mapping-2025/), a region where fewer than 40% of likely anadromous waters are currently inventoried in the Alaska Department of Fish and Game's Anadromous Waters Catalog (AWC). This initiative is modeled on work by the Hoonah Native Forest Partnership in southeast Alaska, where a combination of fieldwork, aerial imagery, and machine learning produced fish presence/absence predictions with greater than 98% accuracy within an average of 200 feet. KWF is partnering with Romey Riverscape Sciences, Terrainworks, and Cook Inletkeeper on the effort, with field surveys underway beginning in 2025.
+
+**Approach:** This chapter will develop the predictive habitat model for the Kenai River watershed, validate it against field survey data, and produce a publicly available habitat map that substantially expands documented anadromous waters in the AWC. The analysis will characterize predicted habitat distribution with respect to species composition and life stage, with particular attention to Chinook salmon rearing habitat in the lower Kenai River system. A synthesis section will translate the modeled habitat estimates into productive capacity metrics relevant to the spawner-recruit analysis in Chapter 4.
+
+**Significance:** The existing AWC substantially underestimates anadromous habitat across Alaska, leaving large areas of fish habitat legally unprotected and effectively invisible to resource managers. For the Kenai Peninsula Borough, completing a high-accuracy habitat inventory would directly improve habitat conservation and development permitting decisions, support restoration prioritization, and provide the spatial context needed to interpret restoration outcomes (Chapter 3) and population-level productivity trends (Chapter 4).
+
+### Chapter 3: Corridor-Scale Habitat Quality Assessment and Population-Level Productivity Linkages
+
+**Research question:** Across the full lower Kenai River corridor, how much habitat meeting physical quality criteria for juvenile KRCS rearing currently exists, how has that changed over time through restoration, erosion, and development, and are cumulative changes in physical habitat quality associated with detectable shifts in population productivity?
+
+**Relationship to existing work:** The Grant No. 26-084G project (Tryon, Donnelly, and Muehlbauer, UAF/ADF&G) is characterizing physical habitat conditions and documenting juvenile Kenai River Chinook salmon presence across seven bank cover types in the mainstem Kenai River. This work will generate a valuable site-scale dataset on habitat conditions and fish captures. Chapter 3 builds on those physical habitat measurements while departing from an assumption embedded in the existing project's framing: that fish presence or trap catch rate indicates habitat quality.
+
+Fish abundance in baited minnow traps is influenced by many factors independent of habitat suitability, including differential trap catchability across habitat types with different flow velocities and structure, fish behavioral aggregation near certain features regardless of habitat value, density-dependent displacement of subordinate fish into suboptimal areas, and seasonal variation in activity. Using catch rate as a proxy for quality risks confounding detectability with actual habitat value. A more defensible approach evaluates habitat quality directly through physical metrics that are mechanistically linked to juvenile growth, condition, and survival.
+
+**Approach:** Chapter 3 will use the physical habitat covariates collected by the Grant No. 26-084G project (water depth, flow velocity, substrate caliber, vegetation density, temperature, and bank cover type) as the primary quality indicators, rather than fish presence as a proxy. These covariates will be synthesized into a physical habitat quality index grounded in existing literature on juvenile salmonid habitat requirements. The index will then be applied at landscape scale using remote sensing and historical aerial and satellite imagery to classify bank condition across the full lower Kenai River corridor over a multi-decade time series. The resulting corridor-scale time series of physical habitat quality will be incorporated into the spawner-recruit modeling framework from Chapter 4 to test whether cumulative changes in habitat composition are associated with detectable shifts in population productivity. This analysis will be coordinated with Tryon, Donnelly, and Muehlbauer to ensure methodological consistency and avoid duplication of field effort.
+
+**Significance:** The Grant No. 26-084G project will produce site-scale data on habitat conditions and fish catches. Chapter 3 asks the next-order question: does the net change in physical habitat quality across the whole corridor show up in the population record? Separating habitat quality from fish detectability is essential to answering this rigorously, and connecting physical habitat metrics to population productivity provides the management-relevant result that restoration funders and fisheries managers most need.
+
+### Chapter 4: Spawner-Recruit Productivity Analysis with Environmental and Anthropogenic Covariates
+
+**Research question:** What are the relative contributions of climate variability, North Pacific competition, bycatch, and density dependence to the long-term productivity trend of Kenai River late-run Chinook salmon?
+
+**Approach:** This chapter aims to fit a Bayesian state-space Ricker spawner-recruit model to reconstructed brood-year time series derived from ADF&G escapement, harvest, and age composition data, following similar examples focused on Yukon River Chinook (DeFilippo et al. 2026; Cunningham et al. 2018). The model will explicitly account for the fact that spawner counts are imprecise measurements (sonar and weir counts carry known error), that the underlying productivity of the population may shift gradually over time for reasons not fully captured by any single measured variable, and that fish removed by harvest and bycatch in each year reduce the number of adults that ultimately return to spawn. Confirmed available covariates include Gulf of Alaska sea surface temperature and marine heatwave indices (NOAA ERSSTv5) and total North Pacific pink and chum salmon abundance (Ruggerone and Irvine 2018 database). Two additional high-priority covariates are subject to ongoing data availability assessments: (1) the separation of hatchery-origin from wild pink and chum abundance, which would require hatchery release records from ADF&G and the North Pacific Anadromous Fish Commission or genetic stock composition estimates; and (2) Gulf of Alaska trawl bycatch apportioned to Kenai-origin Chinook, for which observer-documented total bycatch exists but the depth and quality of the Kenai-specific genetic apportionment record has not yet been confirmed. A data inventory will be completed to determine which covariates can be responsibly included, and any limitations will be reported transparently. The model will use statistical techniques designed to avoid overfitting - that is, to avoid drawing strong conclusions from variables that may appear important by chance given the limited length of available time series.
+
+**Significance:** This chapter extends established methods from Yukon Chinook modeling to a Cook Inlet context where a marine juvenile abundance index is unavailable, and where bycatch attribution to a specific population is particularly socially and politically salient. A well-supported quantitative estimate of the relative magnitude of bycatch effects, alongside climate and competition, would be a significant contribution to ongoing management discussions.
+
+------------------------------------------------------------------------
+
+## Partnerships and Institutional Framework
+
+The proposed program will be anchored at Kenai Watershed Forum, which provides institutional knowledge, field infrastructure, long-term datasets, and community relationships essential to each chapter. Critically, KWF already has active, funded programs directly corresponding to Chapters 1 and 2: the Kenai River baseline water quality monitoring program (operational since 2000, with a 2000-2025 synthesis report in preparation) and the Kenai Peninsula Borough habitat mapping initiative (funded by the National Coastal Resilience Fund, begun 2025). The doctoral program would formalize and publish these ongoing efforts as peer-reviewed research, while adding the corridor-scale habitat quality assessment (Chapter 3) and productivity modeling (Chapter 4) components that transform the collection of studies into an integrated doctoral dissertation.
+
+The doctoral student (or KWF employee, depending on the institutional arrangement) will be supervised by a university-based advisory committee.
+
+We are actively seeking faculty members with expertise in one or more of the following areas to serve as dissertation advisors or committee members:
+
+- Pacific salmon population dynamics and spawner-recruit modeling
+- Freshwater ecology and habitat assessment in Alaska
+- Bayesian statistical methods and state-space models
+- Watershed hydrology and geomorphology
+- Habitat restoration ecology and monitoring design
+
+The logical home for the doctoral program is the University of Alaska Fairbanks, though we welcome conversations with faculty at any institution who share interest in the research questions described above.
+
+------------------------------------------------------------------------
+
+## Alignment with PSMFC Upper Cook Inlet Salmon Disaster Research Priorities
+
+The PSMFC Upper Cook Inlet Salmon Disaster Research program specifically targets research on Kenai late-run Chinook salmon and management of Upper Cook Inlet District mixed-stock fisheries. The proposed doctoral program directly addresses both priorities. Chapter 4 provides quantitative information on the biological factors limiting productivity, which is directly relevant to harvest management. Chapters 1, 2, and 3 address freshwater habitat conditions that affect productive capacity and could inform long-term recovery strategies beyond harvest management alone.
+
+The program is designed to produce deliverables appropriate to the PSMFC grant period: peer-reviewed publications, publicly available datasets and code, and management-relevant technical summaries for ADF&G and other decision makers.
+
+------------------------------------------------------------------------
+
+## Expected Outcomes
+
+Upon completion, the doctoral program will deliver:
+
+- Four peer-reviewed publications covering water quality trends, habitat extent modeling, restoration effectiveness, and productivity drivers.
+- Publicly available datasets and reproducible analysis code for all quantitative components.
+- Management-relevant summaries and briefings for ADF&G, PSMFC, NOAA, and Kenai Peninsula stakeholders.
+- A spatially explicit habitat model and accessibility map for the Kenai River system.
+- A quantitative estimate of the relative contributions of climate, competition, bycatch, and density dependence to the Kenai late-run Chinook productivity time series.
+
+------------------------------------------------------------------------
+
+## Budget and Timeline
+
+The program is expected to span at least three years, with a proposed budget aligned with the PSMFC Upper Cook Inlet Salmon Disaster Research program ceiling of approximately \$882,000. A detailed budget will be developed in coordination with KWF and the supervising university, and will reflect costs associated with personnel (graduate student or postdoctoral researcher and KWF staff time), field data collection, analytical computing, travel, publication costs, and indirect costs.
+
+| Year | Primary Activities |
+|------------------------------------|------------------------------------|
+| 1 | Data compilation and quality control; Chapter 1 trend analysis; Chapter 2 habitat model development; coordination with Tryon/Donnelly/Muehlbauer on Chapter 3 physical habitat covariates |
+| 2 | Chapter 2 AWC expansion; Chapter 3 physical habitat index development and remote sensing corridor classification; Chapter 4 cohort reconstruction and model development; draft manuscripts for Chapters 1 and 2 |
+| 3 | Chapter 4 model fitting and covariate analysis; draft manuscripts for Chapters 3 and 4; synthesis and dissemination |
+
+------------------------------------------------------------------------
+
+## Contact and Next Steps
+
+We welcome inquiries from potential funders, academic advisors, and collaborating researchers. For information about this proposal or to discuss potential involvement, please contact:
+
+**Benjamin Meyer**\
+Kenai Watershed Forum\
+ben\@kenaiwatershed.org\
+[www.benjamin-meyer.net](https://www.benjamin-meyer.net/)
+
+We are preparing a formal pre-proposal for submission to the PSMFC Upper Cook Inlet Salmon Disaster Research program upon release of the 2026 Request for Proposals. Interested faculty are encouraged to reach out as early as possible, as institutional arrangements for the doctoral program will need to be finalized prior to proposal submission.
+
+------------------------------------------------------------------------
+
+## References
+
+Cunningham, C. J., Westley, P. A. H., & Adkison, M. D. (2018). Signals of large-scale climate drivers, hatchery enhancement, and marine survival in Yukon River Chinook salmon survival. *Global Change Biology*, 24(9), 4204-4217.
+
+DeFilippo, L. B., et al. (2026). Shifting stage-specific constraints on productivity shape recovery potential of Chinook salmon. *Ecological Applications*.
+
+## AI Disclosure
+
+Some elements of this document were refined with the assistance of Posit Assistant (Claude Sonnet 4.6), accessed via RStudio in April 2026. All scientific content, framing decisions, and factual claims were reviewed by the author.

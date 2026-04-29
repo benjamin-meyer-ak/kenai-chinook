@@ -2,24 +2,30 @@ project:
   type: book
 
 book:
-  title: "kenai-chinook"
+  title: " Proposed Kenai River Chinook Salmon Research"
   author: "Benjamin Meyer"
   date: today
   chapters:
     - index.qmd
-    - intro.qmd
-    - summary.qmd
+    #- intro.qmd
+    #- summary.qmd
+    - concept_note.qmd
     - references.qmd
-
-bibliography: references.bib
-
 format:
   html:
+    toc: true
+    toc-depth: 2
     theme:
       - cosmo
       - brand
-  pdf:
-    documentclass: scrreprt
+    other-formats: docx
+  docx:
+    number-sections: false
+  #pdf:
+  #  documentclass: scrreprt
+
+filters:
+  - docx-formatting.lua
 
 editor: visual
 

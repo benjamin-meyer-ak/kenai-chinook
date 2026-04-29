@@ -1,5 +1,88 @@
 # Kenai Chinook Project — Agent Memory
 
+Last updated: 2026-04-29 (session: project scope revised to doctoral program; pitch letter QMD drafted)
+
+---
+
+## Project Scope (as of 2026-04-29)
+
+This repository now serves to develop ideas, plans, and documents for a **doctoral research program** on Kenai River Chinook salmon. The scope was expanded on 2026-04-29 from a single spawner-recruit productivity analysis to a multi-chapter doctoral program.
+
+### Doctoral Program Stages
+
+1. Develop a summary pitch to recruit funding (primarily PSMFC; secondarily other sources) and to recruit academic advisors/committee members.
+2. Develop additional research chapters addressing Kenai Chinook salmon beyond total run productivity. The broader program also addresses habitat.
+
+### Chapter Topics (working list)
+
+| Chapter | Topic | Key Reference/Anchor |
+|---|---|---|
+| 1 | Kenai River water quality monitoring and trend analysis | KWF draft report "Water Quality Assessment of the Kenai River Watershed from 2000 to 2025" (B. Meyer, KWF); https://kenai-watershed-forum.github.io/kenai-river-wqx/. Covers 18 parameters (metals, nutrients, organics, bacteria, physical). Updates McCard 2007 and Guerron Orejuela 2016. |
+| 2 | Predictive fish habitat mapping / Anadromous Waters Catalog expansion | KWF habitat mapping initiative launched spring 2025 with National Coastal Resilience Fund grant; https://www.kenaiwatershed.org/news-media/fish-habitat-mapping-2025/. Partners: Romey Riverscape Sciences, Terrainworks, Cook Inletkeeper. Modeled on Hoonah Native Forest Partnership approach (>98% accuracy in SE Alaska). <40% of Kenai Peninsula Borough anadromous waters currently inventoried. |
+| 3 | Evaluation of Kenai River habitat restoration efforts | ADF&G Spring 2026 report ("Kenai River Chinook salmon juvenile rearing habitat use and assessment of habitat improvement techniques") in `other/documents/` |
+| 4 | Kenai River Chinook productivity (Bayesian state-space spawner-recruit model) | Existing work in this repo; DeFilippo 2026, Cunningham 2018 |
+
+Each chapter is intended to become a published academic manuscript.
+
+### Funding and Institutional Context
+
+- **Primary funder target:** Pacific States Marine Fisheries Commission (PSMFC), Upper Cook Inlet Salmon Disaster Research program. The 2025 RFP (https://www.psmfc.org/procurement/upper-cook-inlet-salmon-disaster-research/) offered ~$882,000 over 3 years (concluding by Sept 30, 2028). The 2026 RFP is expected to be similar.
+- **Employment structure:** Unresolved. May proceed as a graduate research assistant at a university, or as a Kenai Watershed Forum (KWF) employee. Decision pending.
+- **Primary collaborating organization:** Kenai Watershed Forum. All chapters are intended to provide funding support to KWF work.
+
+### Key Documents Generated
+
+- `pitch_letter.qmd` (created 2026-04-29): Research concept paper / pitch for PSMFC funding and academic collaborator recruitment.
+- `other/output/kenai_chinook_project_brief_2026-04-23.docx`: Earlier project brief focused on the productivity modeling chapter.
+
+### Existing PSMFC-Funded Project: Critical Context for Chapter 3
+### The Research Gap
+
+Existing research on Kenai Chinook has generally addressed individual drivers in isolation. Spawner-recruit analyses using standard regression methods have been conducted periodically by ADF&G but do not account for observation error in escapement counts, do not integrate cohort structure across age classes, and do not formally test hypotheses about specific drivers. Habitat and water quality data have been collected by KWF for many years but have not been formally linked to population productivity metrics.
+
+PSMFC's current disaster research funding cycle has begun to address individual pieces of this problem. An ongoing ADF&G and University of Alaska Fairbanks collaboration (Donnelly and Muehlbauer, PSMFC Grant No. 26-084G, 2025-2028) is quantifying juvenile KRCS rearing habitat quality and use across five bank cover types in three mainstem reaches, and will produce a predictive model of preferred rearing habitat conditions. That project defines what high-quality juvenile habitat looks like at the site scale. What remains unaddressed is how to apply that knowledge across the full river corridor and watershed, how long-term water quality trends relate to habitat and population conditions, how PSMFC's habitat investments have affected accessible anadromous habitat at landscape scale, and what combination of freshwater and marine factors has driven the population productivity trend. The proposed doctoral program is designed to address these gaps in a way that directly extends and leverages ongoing PSMFC-funded work rather than duplicating it.
+
+**What this project does:** Stratified random sampling of juvenile KRCS rearing habitat in 3 mainstem reaches below Skilak Lake. Quantifies flow, depth, substrate, temperature, and vegetation density across 5 streambank cover types (intact riparian, restored riparian, large woody debris, erosion control structures, bare bank). Uses baited minnow traps to index habitat use. Develops a best-fit regression model (AIC/BIC comparison) predicting optimal juvenile KRCS rearing habitat. Evaluates whether restored banks meet preferred habitat conditions. Also crosslinks with a concurrent JSATS smolt outmigration/tagging project (ADF&G/UAF).
+
+**Implications for Chapter 3 of the doctoral program:**
+- A simple BACI study of individual restoration projects would be redundant with the Donnelly/Muehlbauer work.
+- Chapter 3 should be explicitly complementary: applying the Donnelly/Muehlbauer habitat quality model spatially across the full corridor and connecting habitat metrics to population-level productivity (Chapter 4). The Donnelly project defines *what* good habitat looks like; Chapter 3 asks *how much of it exists, where it is changing, and whether those changes are detectable in population outcomes*.
+- Dr. Muehlbauer (UAF) is a natural candidate for doctoral committee membership, given his existing role in KRCS rearing habitat research.
+- The M.S.-at-UAF funding model in grant 26-084G is the established PSMFC precedent for the institutional structure the doctoral program would follow.
+
+---
+
+As of today we are substantially revising the scope of this Posit project. This repository will serve to 
+develop ideas and plans for a doctoral project. The project will proceed in the following stages:
+
+1.) Develop a summary pitch to recruit funding from the Pacific States Marine Fisheries Commission (PSMFC)
+and others, and to recruit academic collaborators (i.e. advisory committee).
+2.) Develop additional "chapters" to address Chinook salmon research beyond solely Kenai River total run
+productivity. The larger research will also address habitat work.
+2.1) The eventual goal will be for each doctoral chapter to be a published academic manuscript
+2.2) Chapter ideas/topics include the following
+2.2.1) Kenai river water quality monitoring (see https://kenai-watershed-forum.github.io/kenai-river-wqx/)
+2.2.2) Kenai river habitat extent modeling (e.g. NetMap) (see https://www.kenaiwatershed.org/news-media/fish-habitat-mapping-2025/)
+2.2.3) Evaluation of Kenai river habitat restoration efforts (see "Kenai River Chinook salmon 
+juvenile rearing habitat use and assessment of habitat improvement techniques") within other/documents/ADF&G research projects on Kenai River Chinook salmon Spring 2026.pdf
+2.2.4) Kenai river Chinook productivity (e.g. the current existing content in this repo)
+
+Further Notes:
+### Chapter 3: Corridor-Scale Restoration Accounting and Habitat-Productivity Linkages
+
+**Research question:** Across the full lower Kenai River corridor, how much juvenile rearing habitat has been gained or lost through restoration, erosion, and development over time, and are cumulative changes in habitat quality detectable in population productivity metrics?
+
+**Relationship to existing work:** The Donnelly and Muehlbauer project (PSMFC Grant No. 26-084G) is developing a predictive model of preferred juvenile KRCS rearing habitat conditions at the site scale, with field seasons through 2028. Chapter 3 takes the outputs of that model as a starting point and extends the analysis in two directions: spatially, applying habitat quality predictions across the full lower Kenai River corridor using remote sensing and historical imagery; and temporally, tracking cumulative changes in predicted habitat quality over the 25-plus year record during which restoration and development have both occurred along the river. This explicitly positions Chapter 3 as a natural successor to the Donnelly/Muehlbauer work rather than a parallel effort.
+
+**Approach:** Using the habitat covariate model from Grant No. 26-084G as a predictive framework, this chapter will apply remote sensing and GIS analysis to spatially classify lower Kenai River bank condition across historical aerial and satellite imagery series. The resulting time series of corridor-scale habitat quality estimates will then be incorporated into the spawner-recruit model framework developed in Chapter 4, testing whether cumulative changes in habitat quality are associated with detectable shifts in juvenile survival or population productivity. This analysis will be coordinated directly with Donnelly and Muehlbauer to ensure methodological consistency.
+
+**Significance:** Site-scale restoration evaluation is valuable but insufficient to determine whether restoration investments have meaningfully improved conditions for the population as a whole. Corridor-scale habitat accounting, linked to population productivity metrics, provides the larger-context answer that managers and funders ultimately need. No such analysis currently exists for the Kenai River.
+
+Do not remove the existing work in this repository investigating the possibility of using Bayesian approaches 
+to evaluate Chinook productivity; this may be the subject of one of the doctoral chapters.
+
+
+
 Last updated: 2026-04-23 (session: context/document updates, project brief drafted)
 
 ## Project Goal
@@ -9,25 +92,27 @@ Use all best available data to understand the full suite of natural, anthropogen
 Reference PDFs in `other/documents/`:
 - `Ecological Applications - 2026 - DeFilippo - Shifting stage-specific constraints on productivity shape recovery potential.pdf` (primary structural reference)
 - `Global Change Biology - 2018 - Cunningham - Signals of large scale climate drivers hatchery enhancement and marine.pdf`
-- `Global Change Biology - 2020 - Jones - Watershed-scale climate influences productivity of Chinook salmon populations across.pdf` (PDF now present; review before developing covariate list)
-- `Fish and Fisheries - 2025 - Lamborn - A Synthesis of Factors Related to Trends in Abundance and Demography of Alaska.pdf` (new; high priority review)
+The doctoral student (or KWF employee, depending on the institutional arrangement) will be supervised by a university-based advisory committee. An existing research collaboration provides a natural starting point: Dr. Jeffrey Muehlbauer (University of Alaska Fairbanks, School of Fisheries and Ocean Sciences) is currently co-PI on PSMFC Grant No. 26-084G with ADF&G's Daniel Donnelly, conducting juvenile KRCS rearing habitat research on the Kenai River. Dr. Muehlbauer's ongoing Kenai River fieldwork and his established relationship with ADF&G's Soldotna office make him a logical candidate for the doctoral advisory committee. The University of Alaska Fairbanks is accordingly the most immediately practical institutional home for the doctoral program, though we are open to conversations with faculty at other institutions.
 
-## Project Structure
+We are actively seeking faculty members with expertise in one or more of the following areas to serve as dissertation advisors or committee members:
 
-Quarto book project (HTML and PDF outputs). Key files:
-- `_quarto.yml` — book configuration
-- `index.qmd`, `intro.qmd`, `summary.qmd`, `references.qmd` — book chapters (currently placeholder content)
-- `other/agent_context/agent_context.txt` — project context and collaboration standards
-- `other/documents/` — reference PDFs
-- `other/input/` — data inputs (currently empty)
+- Pacific salmon population dynamics and spawner-recruit modeling
+- Freshwater ecology and habitat assessment in Alaska
+- Bayesian statistical methods and state-space models
+- Watershed hydrology, geomorphology, and remote sensing
+- Habitat restoration ecology and monitoring design
+
+We welcome conversations with faculty at UAF, University of Alaska Anchorage, University of Washington, Oregon State University, or any institution with relevant expertise.
 - `other/output/` — analysis outputs
   - `kenai_chinook_project_brief_2026-04-23.docx` — project brief summarizing goals, modeling approach, literature, data gaps, and next steps
 
-## Collaboration Standards (from agent_context.txt)
+## Alignment with PSMFC Upper Cook Inlet Salmon Disaster Research Priorities
 
-- Do not implement code without first confirming the user understands how it works
-- Code must be readable and editable for future collaborative scientists
-- **Do not use em dashes in written prose.** This is a known AI writing habit the user finds unappealing. Use commas, parentheses, semicolons, or restructure the sentence instead. This rule was violated in the April 23 project brief draft and had to be corrected retroactively.
+The PSMFC Upper Cook Inlet Salmon Disaster Research program specifically targets research on Kenai late-run Chinook salmon and management of Upper Cook Inlet District mixed-stock fisheries. The proposed doctoral program directly addresses both priorities and is explicitly designed to build on and extend PSMFC's existing investments rather than duplicate them.
+
+PSMFC's current funding cycle has already supported site-scale juvenile habitat research (Grant No. 26-084G, Donnelly and Muehlbauer, $94,974). The proposed doctoral program fills the complementary gaps: long-term water quality synthesis (Chapter 1), landscape-scale habitat inventory (Chapter 2), corridor-scale restoration accounting linked to population outcomes (Chapter 3, building directly on Grant No. 26-084G), and a rigorous quantitative analysis of the freshwater and marine factors driving the productivity time series (Chapter 4). Chapter 4 in particular directly serves PSMFC's mixed-stock fisheries management priority by producing quantitative estimates of how harvest, bycatch, climate, and competition have each contributed to the decline.
+
+The institutional model established by Grant No. 26-084G, a jointly supervised M.S. student embedded within an ADF&G and university collaboration, is the direct precedent for how the proposed doctoral program would be structured. The program is designed to produce deliverables appropriate to the PSMFC grant period: peer-reviewed publications, publicly available datasets and reproducible code, and management-relevant technical summaries for ADF&G, PSMFC, NOAA, and Kenai Peninsula stakeholders.draft and had to be corrected retroactively.
 - **User background:** Studied linear regression; no formal training in advanced statistics. Statistical methods should be explained as they are introduced, building from linear regression toward more complex concepts.
 
 ------------------------------------------------------------------------
@@ -47,11 +132,11 @@ ln(R/S) = ln(alpha) + beta_climate * X_climate + beta_bycatch * X_bycatch
           + beta_competition * X_competition - beta_density * S + error
 ```
 
-Key structural features:
-
-- **State-space formulation:** Separates observation error (imprecision in escapement/harvest counts) from process error (true biological variability in S-R relationship). This distinction matters because observation error in spawner counts biases slope estimates in standard regression.
-- **Time-varying productivity (ln alpha):** Can be modeled as a random walk (latent drift) plus covariate effects, or covariates alone. Both will be explored.
-- **Cohort reconstruction:** Age composition data from escapement and harvest samples are used to reconstruct brood-year returns across multiple calendar years. This converts calendar-year counts into cohort-specific survival estimates and is more informative than escapement totals alone.
+| Year | Primary Activities |
+|------------------------------------|------------------------------------|
+| 1 | Data compilation and quality control; Chapter 1 trend analysis; Chapter 2 habitat model development and field validation; coordination with Donnelly/Muehlbauer (Grant No. 26-084G) |
+| 2 | Chapter 2 AWC expansion and productive capacity analysis; Chapter 3 remote sensing and corridor-scale habitat time series; Chapter 4 cohort reconstruction and model development; draft manuscripts for Chapters 1 and 2 |
+| 3 | Chapter 3 habitat-productivity linkage analysis; Chapter 4 model fitting and covariate analysis; draft manuscripts for Chapters 3 and 4; synthesis and dissemination |turns across multiple calendar years. This converts calendar-year counts into cohort-specific survival estimates and is more informative than escapement totals alone.
 - **Explicit mortality accounting:** Harvest F and bycatch F enter as known (or estimated) removals from each cohort, not as covariates. This allows the model to make direct statements about anthropogenic impacts rather than correlative ones.
 - **Covariate selection:** Multiple candidate covariates (climate, competition, bycatch) tested; Bayesian shrinkage priors or model comparison used for selection.
 - **Bayesian estimation in Stan** (CmdStanR interface).
@@ -67,9 +152,17 @@ The competition term (X_competition) should be considered carefully in light of 
 | Juvenile likelihood | Required | Required | Dropped — no GOA analog |
 | Marine mortality | Latent random walk M | Covariate-driven stage mortality | Latent or covariate-driven productivity (ln alpha) |
 | Covariate handling | Post-hoc correlation | BMA within model | Explicit covariates in S-R; Bayesian selection |
-| Implementation | Stan | JAGS | Stan |
-| Age structure | Full IPM cohort tracking | Stage-structured | Cohort reconstruction from age comp |
+## References
 
+Burger, C. V., Wangaard, D. B., Wilmot, R. L., & Palmisano, A. N. (1982). Salmon investigations in the Kenai River, Alaska, 1979-1981. U.S. Fish and Wildlife Service, National Fishery Research Center, Alaska Field Station.
+
+Cunningham, C. J., Westley, P. A. H., & Adkison, M. D. (2018). Signals of large-scale climate drivers, hatchery enhancement, and marine survival in Yukon River Chinook salmon survival. *Global Change Biology*, 24(9), 4204-4217.
+
+Donnelly, D., & Muehlbauer, J. (2025-2028). Juvenile Kenai River Chinook salmon rearing habitat quality and usage. PSMFC Grant No. 26-084G, Alaska Department of Fish and Game / University of Alaska Fairbanks. In progress.
+
+Guerron Orejuela, E. (2016). Water quality assessment of the Kenai River watershed from July 2000 to July 2014. Alaska Department of Environmental Conservation.
+
+McCard, J. J. (2007). Water quality assessment of the Kenai River watershed from July 2000 to July 2006. Kenai Watershed Forum.
 ### Key Statistical Concepts to Introduce as Needed
 
 (In order of complexity; introduce as each becomes relevant)
