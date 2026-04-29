@@ -23,6 +23,16 @@ This document describes a proposed doctoral research program designed to fill th
 
 We are seeking funding support through the [Pacific States Marine Fisheries Committee Upper Cook Inlet Salmon Disaster Research program](https://www.psmfc.org/procurement/upper-cook-inlet-salmon-disaster-research/), which was identified by the [Kenai King Initiative](https://www.kenaiwatershed.org/kenai-king-initiative/) research committee as a viable funding source to support Kenai River Chinook salmon research in spring 2026 (see [ADF&G memo April 8, 2026](other/documents/26-084G%20-%20ADFG%20-%20Job%20No.%201298C3.25_1.16.26.pdf)). We are actively recruiting academic collaborators to serve as dissertation advisors and committee members, as well as community partners to support the overall effort.
 
+The project is currently envisioned as four inter-related chapters:
+
+1.  Kenai River Water Quality trends and implications for salmon habitat
+
+2.  Predictive fish habitat modeling to support anadromous waters mapping and conservation
+
+3.  Watershed-scale physical habitat capacity assessment to support restoration efforts
+
+4.  Spawner-Recruit Productivity Analysis with Environmental and Anthropogenic Covariates
+
 ------------------------------------------------------------------------
 
 ## Background
