@@ -42,7 +42,7 @@ vignettes/*.pdf
 # pkgdown site
 # docs/
 
-# Quarto rendered output (published via gh-pages branch)
+# Quarto rendered output
 _book/
 
 # translation temp files
