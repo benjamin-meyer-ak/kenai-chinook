@@ -1,20 +1,29 @@
-# Kenai River Chinook Salmon Productivity Study
+# Kenai River Chinook Salmon Research: An Integrated Doctoral Research Program
 
-**Author:** Benjamin Meyer\
+**Author:** Benjamin Meyer, Kenai Watershed Forum\
 **Started:** April 2026\
-**Status:** Early development (planning and literature review phase)
+**Status:** Early development (planning and concept development phase)
 
 ## Overview
 
-This project aims to use all best available data to understand the full suite of natural, anthropogenic, marine, freshwater, historical, present, and future factors that drive wild Kenai River Chinook salmon (*Oncorhynchus tshawytscha*) productivity. The analysis is grounded in the Kenai River and its environs but draws on other populations and the broader North Pacific literature as appropriate.
+This repository supports development of a proposed doctoral research program on Kenai River Chinook salmon (*Oncorhynchus tshawytscha*). The program is designed to quantify the full suite of natural and anthropogenic factors driving wild Kenai River Chinook productivity, with particular attention to freshwater habitat condition, water quality, and population dynamics.
 
-The core product is a Bayesian state-space spawner-recruit model with explicit environmental and anthropogenic covariates, estimated in Stan. The approach is informed by recent modeling work for Yukon River Chinook (DeFilippo et al. 2026; Cunningham et al. 2018) but is not a direct adaptation of either, and is designed specifically for the data landscape available in Cook Inlet.
+The research is organized into four chapters, each targeted as a standalone peer-reviewed publication. The program is being developed in collaboration with Kenai Watershed Forum (KWF) and will seek funding through the Pacific States Marine Fisheries Commission (PSMFC) Upper Cook Inlet Salmon Disaster Research program.
 
-The analysis and results will be documented in a Quarto book rendered to HTML and PDF.
+A rendered version of this document is published at: https://benmeyersalaska.github.io/kenai-chinook/
 
-## Modeling Approach
+## Research Chapters
 
-The model is a linearized Ricker spawner-recruit equation in state-space form:
+| Chapter | Topic |
+|---|---|
+| 1 | Kenai River water quality monitoring and trend analysis (2000-2025) |
+| 2 | Predictive fish habitat mapping and Anadromous Waters Catalog expansion |
+| 3 | Evaluation of Kenai River habitat restoration efforts |
+| 4 | Kenai River Chinook productivity (Bayesian state-space spawner-recruit model) |
+
+### Chapter 4 Modeling Approach
+
+The productivity model is a linearized Ricker spawner-recruit equation in state-space form:
 
 ```         
 ln(R/S) = ln(α) + β_climate × X_climate + β_bycatch × X_bycatch
@@ -23,7 +32,7 @@ ln(R/S) = ln(α) + β_climate × X_climate + β_bycatch × X_bycatch
 
 Key features:
 
-- **State-space formulation** separates observation error (imprecision in escapement and harvest counts) from process error (true biological variability)
+- **State-space formulation** separates observation error from process error
 - **Time-varying productivity** (ln α) modeled as a random walk or covariate-driven term
 - **Cohort reconstruction** from ADF&G age composition data
 - **Explicit mortality accounting** for directed harvest and bycatch
@@ -35,11 +44,12 @@ Key features:
 ```         
 kenai-chinook/
 ├── _quarto.yml              # Quarto book configuration
-├── index.qmd                # Book preface / introduction
-├── intro.qmd                # Background and motivation
-├── summary.qmd              # Summary and conclusions
+├── index.qmd                # Book preface
+├── concept_note.qmd         # Doctoral program concept note / PSMFC pitch
 ├── references.qmd           # Reference list
 ├── references.bib           # BibTeX bibliography
+├── docx-formatting.lua      # Lua filter for DOCX output formatting
+├── custom.css               # Custom CSS for HTML output
 ├── other/
 │   ├── agent_context/       # Project context and collaboration notes
 │   ├── documents/           # Reference PDFs
@@ -56,7 +66,11 @@ This project requires [Quarto](https://quarto.org) and R. To render:
 quarto render
 ```
 
-Output will be written to `_book/` in both HTML and PDF formats.
+Output is written to `_book/` in HTML and DOCX formats. To publish to GitHub Pages:
+
+``` bash
+quarto publish gh-pages
+```
 
 ## Key References
 

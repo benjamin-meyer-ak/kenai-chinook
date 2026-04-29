@@ -6,6 +6,8 @@ book:
   author: "Benjamin Meyer"
   date: today
   downloads: [docx]
+  repo-url: https://github.com/benjamin-meyer-ak/kenai-chinook
+  repo-actions: [source]
   chapters:
     - index.qmd
     #- intro.qmd
