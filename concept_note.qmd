@@ -142,7 +142,7 @@ Upon completion, the doctoral program will deliver:
 The program is expected to span at least three years, with a proposed budget aligned with the PSMFC Upper Cook Inlet Salmon Disaster Research program. A detailed budget will be developed in coordination with KWF and the supervising university, and will reflect costs associated with personnel (graduate student or postdoctoral researcher and KWF staff time), field data collection, analytical computing, travel, publication costs, and indirect costs.
 
 | Year | Primary Activities |
-|------------------------------------|------------------------------------|
+|----|----|
 | 1 | Data compilation and quality control; Chapter 1 trend analysis; Chapter 2 habitat model development; coordination with Tryon/Donnelly/Muehlbauer on Chapter 3 physical habitat covariates |
 | 2 | Chapter 2 AWC expansion; Chapter 3 NetMap habitat quality index development and watershed-scale capacity assessment; Chapter 4 cohort reconstruction and model development; draft manuscripts for Chapters 1 and 2 |
 | 3 | Chapter 4 model fitting and covariate analysis; draft manuscripts for Chapters 3 and 4; synthesis and dissemination |

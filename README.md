@@ -10,34 +10,16 @@ This repository supports development of a proposed doctoral research program on 
 
 The research is organized into four chapters, each targeted as a standalone peer-reviewed publication. The program is being developed in collaboration with Kenai Watershed Forum (KWF) and will seek funding through the Pacific States Marine Fisheries Commission (PSMFC) Upper Cook Inlet Salmon Disaster Research program.
 
-A rendered version of this document is published at: https://benmeyersalaska.github.io/kenai-chinook/
+A rendered version of this document is published at: <https://benjamin-meyer-ak.github.io/kenai-chinook/>
 
 ## Research Chapters
 
 | Chapter | Topic |
-|----|----|
+|------------------------------------|------------------------------------|
 | 1 | Kenai River water quality monitoring and trend analysis (2000-2025) |
 | 2 | Predictive fish habitat mapping and Anadromous Waters Catalog expansion |
 | 3 | Evaluation of Kenai River habitat restoration efforts |
-| 4 | Kenai River Chinook productivity (Bayesian state-space spawner-recruit model) |
-
-### Chapter 4 Modeling Approach
-
-The productivity model is a linearized Ricker spawner-recruit equation in state-space form:
-
-```         
-ln(R/S) = ln(α) + β_climate × X_climate + β_bycatch × X_bycatch
-          + β_competition × X_competition - β_density × S + ε
-```
-
-Key features:
-
-- **State-space formulation** separates observation error from process error
-- **Time-varying productivity** (ln α) modeled as a random walk or covariate-driven term
-- **Cohort reconstruction** from ADF&G age composition data
-- **Explicit mortality accounting** for directed harvest and bycatch
-- **Bayesian covariate selection** using shrinkage priors or model comparison (WAIC / LOO-CV)
-- **Estimation in Stan** via CmdStanR
+| 4 | Kenai River Chinook productivity |
 
 ## Repository Structure
 
@@ -64,12 +46,6 @@ This project requires [Quarto](https://quarto.org) and R. To render:
 
 ``` bash
 quarto render
-```
-
-Output is written to `_book/` in HTML and DOCX formats. To publish to GitHub Pages:
-
-``` bash
-quarto publish gh-pages
 ```
 
 ## Key References
