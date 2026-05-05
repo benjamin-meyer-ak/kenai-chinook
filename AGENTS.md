@@ -1,6 +1,6 @@
 # Kenai Chinook Project — Agent Memory
 
-Last updated: 2026-04-29 (session: Quarto book structure configured; pitch letter renamed to concept_note.qmd; Chapter 3 approach revised to use NetMap habitat values at landscape scale)
+Last updated: 2026-05-05 (session: Shaftel 2026 reference integrated into concept_note.qmd; added to references.bib with complete 13-author list confirmed from PDF; cited in Chapter 3 approach and Chapter 4 covariate sections; full Kenai applicability assessment completed — see Shaftel entry below)
 
 ------------------------------------------------------------------------
 
@@ -145,6 +145,18 @@ The competition term (X_competition) should be considered carefully in light of 
 - **Jones et al. 2020** — "Watershed-Scale Climate Influences Productivity of Chinook Salmon Populations Across Southcentral Alaska." *Global Change Biology* 26(9). Most directly relevant Southcentral AK precedent. PDF present. **Review before developing covariate list.**
 - **Lamborn et al. 2025** — "A Synthesis of Factors Related to Trends in Abundance and Demography of Alaska Chinook Salmon (*Oncorhynchus tshawytscha*, Salmonidae): Implications for Research, Management, and Policy." *Fish and Fisheries*, 26(4), 520–532. https://doi.org/10.1111/faf.12895. Authors: Lamborn, C. C., Ohlberger, J., Walsworth, T. E., Westley, P. A. H., Cunningham, C. J., Wynsma, S., & Smith, J. W. New synthesis paper on Alaska-wide Chinook trends and drivers. PDF present. **High priority review; likely informs covariate selection and scope of analysis.**
 - **Ruggerone & Irvine 2018** — North Pacific pink and chum abundance database; primary source for competition covariate.
+
+### Freshwater habitat and climate references
+
+- **Shaftel et al. 2026** — "Integrating climate data and river modeling to reveal Chinook salmon habitat conditions in subarctic river basins." *Ecosphere* 17(1):e70399. DOI: 10.1002/ecs2.70399. Develops and validates an approach for estimating reach-scale streamflow and temperature from gridded climate products; applied as a case study in the Yukon and Kuskokwim basins. 13 authors (Shaftel, Feddern, McAfee, Schoen, Cunningham, von Biela, Paul, Cheng, Newman, Perdue, Schwenk, von Finster, Falke). CC BY 4.0.
+
+  **Best-performing tools validated**: GloFAS for daily streamflow (median NSE = 0.70); DAYMET air temperature as input to boosted regression tree (BRT) or multiple regression models for stream temperature (RMSE ~0.95–1.19°C cross-validated).
+
+  **Key indicators derived**: (1) maximum daily stream temperature during adult migration; (2) cumulative daily stream temperature during juvenile rearing (degree-days). Both showed significant warming over the past 40 years in the Yukon/Kuskokwim. Streamflow indicators (max flow during spawning, median flow during rearing) showed fewer trends and weaker within-basin correlations.
+
+  **Applicability to the Kenai**: DAYMET and GloFAS are both available for the Kenai Peninsula; the indicator framework and BRT temperature modeling approach are directly transferable. The KWF monitoring network and USGS gauges provide substantially better validation opportunities than existed for the Yukon tributaries. Caveats: (1) GloFAS may have routing errors for small tributary subwatersheds due to its 0.1° spatial resolution — the mainstem is better covered; (2) heavily glacierized upper tributaries (e.g., those draining the Harding Icefield) may have reduced temperature model performance due to glacial meltwater contributions; lower mainstem and unglacierized tributaries are less affected. The paper explicitly frames the approach as a transferable framework for subarctic systems with limited monitoring, and recommends evaluating the latest available datasets when applying it to new settings.
+
+  **First author**: Rebecca Shaftel is affiliated with both UAF (College of Fisheries and Ocean Sciences) and Bureau of Land Management (Anchorage). She is also a co-author on Feddern et al. 2024 (body size and early marine conditions for northern Chinook) and a potential committee member candidate. Contact: rsshaftel@alaska.edu.
 
 ### Gray/popular literature (contextual)
 
