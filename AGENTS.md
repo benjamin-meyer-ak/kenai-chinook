@@ -150,13 +150,13 @@ The competition term (X_competition) should be considered carefully in light of 
 
 - **Shaftel et al. 2026** — "Integrating climate data and river modeling to reveal Chinook salmon habitat conditions in subarctic river basins." *Ecosphere* 17(1):e70399. DOI: 10.1002/ecs2.70399. Develops and validates an approach for estimating reach-scale streamflow and temperature from gridded climate products; applied as a case study in the Yukon and Kuskokwim basins. 13 authors (Shaftel, Feddern, McAfee, Schoen, Cunningham, von Biela, Paul, Cheng, Newman, Perdue, Schwenk, von Finster, Falke). CC BY 4.0.
 
-  **Best-performing tools validated**: GloFAS for daily streamflow (median NSE = 0.70); DAYMET air temperature as input to boosted regression tree (BRT) or multiple regression models for stream temperature (RMSE ~0.95–1.19°C cross-validated).
+  **Best-performing tools validated**: GloFAS for daily streamflow (median NSE = 0.70); DAYMET air temperature as input to boosted regression tree (BRT) or multiple regression models for stream temperature (RMSE \~0.95–1.19°C cross-validated).
 
   **Key indicators derived**: (1) maximum daily stream temperature during adult migration; (2) cumulative daily stream temperature during juvenile rearing (degree-days). Both showed significant warming over the past 40 years in the Yukon/Kuskokwim. Streamflow indicators (max flow during spawning, median flow during rearing) showed fewer trends and weaker within-basin correlations.
 
   **Applicability to the Kenai**: DAYMET and GloFAS are both available for the Kenai Peninsula; the indicator framework and BRT temperature modeling approach are directly transferable. The KWF monitoring network and USGS gauges provide substantially better validation opportunities than existed for the Yukon tributaries. Caveats: (1) GloFAS may have routing errors for small tributary subwatersheds due to its 0.1° spatial resolution — the mainstem is better covered; (2) heavily glacierized upper tributaries (e.g., those draining the Harding Icefield) may have reduced temperature model performance due to glacial meltwater contributions; lower mainstem and unglacierized tributaries are less affected. The paper explicitly frames the approach as a transferable framework for subarctic systems with limited monitoring, and recommends evaluating the latest available datasets when applying it to new settings.
 
-  **First author**: Rebecca Shaftel is affiliated with both UAF (College of Fisheries and Ocean Sciences) and Bureau of Land Management (Anchorage). She is also a co-author on Feddern et al. 2024 (body size and early marine conditions for northern Chinook) and a potential committee member candidate. Contact: rsshaftel@alaska.edu.
+  **First author**: Rebecca Shaftel is affiliated with both UAF (College of Fisheries and Ocean Sciences) and Bureau of Land Management (Anchorage). She is also a co-author on Feddern et al. 2024 (body size and early marine conditions for northern Chinook) and a potential committee member candidate. Contact: rsshaftel\@alaska.edu.
 
 ### Gray/popular literature (contextual)
 
